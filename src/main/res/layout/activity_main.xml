@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+
+
+    tools:context="com.example.alejandro.fragments.MainActivity"
+    android:weightSum="1">
+
+    <fragment
+
+        android:name="com.example.alejandro.fragments.Fragment1"
+
+        android:id="@+id/fragment1"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="62dp"
+        android:layout_weight="0.11" />
+
+    <fragment
+
+        android:id="@+id/fragment2"
+
+        android:name="com.example.alejandro.fragments.Fragment2"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="65dp"
+        android:layout_weight="0.11" />
+
+</LinearLayout>
